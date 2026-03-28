@@ -16,12 +16,12 @@
 }
 :root {
   /**  Sun  **/
-  --sky-bg: #87CEEB; /* Soft sky blue */
-  --sun-bg: #FFD700; /* Golden yellow */
+  --sky-bg: #87ceeb; /* Soft sky blue */
+  --sun-bg: #ffd700; /* Golden yellow */
 
   /**  Moon  **/
-  --sky-night-bg: #2C3E50; /* Deep navy blue */
-  --moon-dots: #F4F4F8; /* Soft off-white */
+  --sky-night-bg: #2c3e50; /* Deep navy blue */
+  --moon-dots: #f4f4f8; /* Soft off-white */
 
   /**  Elements  **/
   --white: hsl(0, 0%, 100%);
@@ -29,19 +29,18 @@
   --blue: hsl(220, 35%, 50%); /* Soft muted blue */
   --dark-blue: hsl(220, 45%, 25%); /* Rich dark blue */
   --rgba-darkblue: rgba(44, 62, 80, 0.35); /* Navy blue with transparency */
-  --red: #E74C3C; /* Bright coral red */
+  --red: #e74c3c; /* Bright coral red */
 
   --shadow: 0 0.3rem 1rem var(--rgba-darkblue);
   --cubic-bezier: 0.8s cubic-bezier(0.06, 0.8, 0.1, 1);
 }
 
 :root body.dark {
-  --white: #F4F4F8; /* Soft off-white for text */
-  --bg: #1C2833; /* Deep navy blue for the background */
-  --blue: #87CEEB; /* Soft sky blue for highlights */
-  --dark-blue: #FFD700; /* Golden yellow for accents or interactive elements */
+  --white: #f4f4f8; /* Soft off-white for text */
+  --bg: #1c2833; /* Deep navy blue for the background */
+  --blue: #87ceeb; /* Soft sky blue for highlights */
+  --dark-blue: #ffd700; /* Golden yellow for accents or interactive elements */
 }
-
 
 ::-webkit-scrollbar {
   width: 0.7rem;
@@ -198,7 +197,8 @@ a {
   border-radius: 50%;
   opacity: 0;
   background: transparent;
-  box-shadow: var(--moon-dots) 0.5rem 0.5rem 0 0.08rem,
+  box-shadow:
+    var(--moon-dots) 0.5rem 0.5rem 0 0.08rem,
     var(--moon-dots) -0.5rem 1.2rem 0 -0.08rem;
   transition-delay: 0;
   transition: all var(--cubic-bezier);
