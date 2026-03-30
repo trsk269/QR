@@ -23,11 +23,3 @@ npm install
 
 # Start dev server
 npm run dev
-Error Correction Levels
-LevelRecoveryBest ForL~7%Clean environments, max data densityM~15%General useQ~25%Slightly damaged or printed codesH~30%Logos embedded, harsh conditions
-Project Structure
-src/
-├── App.jsx          # Main app + QR logic
-├── App.css          # All styles & design tokens
-└── components/
-    └── Footer.jsx   # Footer component
